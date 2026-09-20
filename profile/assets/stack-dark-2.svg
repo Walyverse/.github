@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="120" viewBox="0 0 1200 120" role="img" aria-label="Built with Java, TypeScript, Node.js, Python, Next.js, MySQL, PostgreSQL, Redis, Docker and Stripe">
+  <defs>
+    <linearGradient id="srule" x1="80" y1="0" x2="500" y2="0" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#A855F7" stop-opacity=".55"/>
+      <stop offset="1" stop-color="#A855F7" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+
+  <text x="80" y="22" font-family="'Segoe UI','Helvetica Neue',Helvetica,Arial,sans-serif"
+        font-size="12" font-weight="700" letter-spacing="4.2" textLength="108" lengthAdjust="spacingAndGlyphs" fill="#8A76BE">BUILT WITH</text>
+  <rect x="208" y="16.5" width="420" height="1.5" rx=".75" fill="url(#srule)"/>
+
+  <g font-family="'Segoe UI Semibold','Segoe UI',Inter,'Helvetica Neue',Helvetica,Arial,sans-serif" font-size="16" font-weight="600" fill="#D9D0EE">
+    <circle cx="86" cy="61" r="5.5" fill="#F0A030"/><text x="104" y="66">Java</text>
+    <circle cx="318" cy="61" r="5.5" fill="#4FA3E3"/><text x="336" y="66">TypeScript</text>
+    <circle cx="550" cy="61" r="5.5" fill="#6CC24A"/><text x="568" y="66">Node.js</text>
+    <circle cx="782" cy="61" r="5.5" fill="#FFD343"/><text x="800" y="66">Python</text>
+    <circle cx="1014" cy="61" r="5.5" fill="#F0F0F0"/><text x="1032" y="66">Next.js</text>
+
+    <circle cx="86" cy="99" r="5.5" fill="#00A3C4"/><text x="104" y="104">MySQL</text>
+    <circle cx="318" cy="99" r="5.5" fill="#7A9BE8"/><text x="336" y="104">PostgreSQL</text>
+    <circle cx="550" cy="99" r="5.5" fill="#FF6B5E"/><text x="568" y="104">Redis</text>
+    <circle cx="782" cy="99" r="5.5" fill="#4FA8F5"/><text x="800" y="104">Docker</text>
+    <circle cx="1014" cy="99" r="5.5" fill="#8F88FF"/><text x="1032" y="104">Stripe</text>
+  </g>
+</svg>

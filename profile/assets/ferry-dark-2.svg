@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="104" viewBox="0 0 1200 104" role="img" aria-label="Ferry, everything that keeps a fleet aligned, ferry.walyverse.fr">
+  <defs>
+    <linearGradient id="ftile" x1="80" y1="22" x2="124" y2="66" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#6D5DFC"/><stop offset="1" stop-color="#9B6BFF"/>
+    </linearGradient>
+    <linearGradient id="fword" x1="142" y1="32" x2="262" y2="58" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#F5F6F8"/><stop offset="1" stop-color="#B49DFF"/>
+    </linearGradient>
+    <linearGradient id="fsep" x1="80" y1="0" x2="1120" y2="0" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#8B78FF" stop-opacity=".42"/>
+      <stop offset="1" stop-color="#8B78FF" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+
+  <g transform="translate(80,22) scale(1.375)">
+    <rect width="32" height="32" rx="9" fill="url(#ftile)"/>
+    <g fill="#fff">
+      <rect x="9" y="9.4" width="14" height="3.4" rx="1.7" opacity="0.45"/>
+      <rect x="9" y="14.3" width="14" height="3.4" rx="1.7" opacity="0.72"/>
+      <rect x="9" y="19.2" width="14" height="3.4" rx="1.7"/>
+    </g>
+  </g>
+
+  <text x="142" y="52" font-family="'Segoe UI Semibold','Segoe UI',Inter,'Helvetica Neue',Helvetica,Arial,sans-serif"
+        font-size="24" font-weight="700" letter-spacing="5" textLength="100" lengthAdjust="spacingAndGlyphs" fill="url(#fword)">FERRY</text>
+  <text x="143" y="76" font-family="'Segoe UI','Helvetica Neue',Helvetica,Arial,sans-serif"
+        font-size="12.5" letter-spacing="1.1" textLength="232" lengthAdjust="spacingAndGlyphs" fill="#9AA0AD">Everything that keeps a fleet aligned</text>
+
+  <text x="1120" y="60" text-anchor="end" font-family="'Segoe UI Semibold','Segoe UI',Inter,'Helvetica Neue',Helvetica,Arial,sans-serif"
+        font-size="15" font-weight="600" letter-spacing=".4" textLength="132" lengthAdjust="spacingAndGlyphs" fill="#8B78FF">ferry.walyverse.fr</text>
+
+  <rect x="80" y="96" width="1040" height="1.5" rx=".75" fill="url(#fsep)"/>
+</svg>

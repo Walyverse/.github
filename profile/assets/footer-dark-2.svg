@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="170" viewBox="0 0 1200 170" role="img" aria-label="Walyverse, platform engineering for live game worlds. Contact contact@walyverse.com">
+  <defs>
+    <linearGradient id="fline" x1="0" y1="0" x2="1200" y2="0" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#A855F7" stop-opacity="0"/>
+      <stop offset=".5" stop-color="#A855F7" stop-opacity=".45"/>
+      <stop offset="1" stop-color="#A855F7" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="fw" x1="132" y1="46" x2="290" y2="70" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#F3E8FF"/><stop offset="1" stop-color="#A78BFA"/>
+    </linearGradient>
+    <linearGradient id="cTop" x1="70" y1="100" x2="190" y2="170" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#C084FC"/><stop offset="1" stop-color="#7C3AED"/>
+    </linearGradient>
+    <linearGradient id="cL" x1="70" y1="135" x2="130" y2="240" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#6D28D9"/><stop offset="1" stop-color="#3B0F70"/>
+    </linearGradient>
+    <linearGradient id="cR" x1="190" y1="135" x2="130" y2="240" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#8B5CF6"/><stop offset="1" stop-color="#4C1D95"/>
+    </linearGradient>
+  </defs>
+
+  <rect x="0" y="0" width="1200" height="1.5" fill="url(#fline)"/>
+
+  <g transform="translate(80,42) scale(0.3) translate(-70,-100)">
+    <path d="M130 100 190 135 130 170 70 135Z" fill="url(#cTop)"/>
+    <path d="M70 135 130 170v70l-60-35Z" fill="url(#cL)"/>
+    <path d="M190 135 130 170v70l60-35Z" fill="url(#cR)"/>
+  </g>
+
+  <text x="132" y="63" font-family="'Segoe UI Semibold','Segoe UI',Inter,'Helvetica Neue',Helvetica,Arial,sans-serif"
+        font-size="19" font-weight="700" letter-spacing="4.5" textLength="153" lengthAdjust="spacingAndGlyphs" fill="url(#fw)">WALYVERSE</text>
+  <text x="133" y="86" font-family="'Segoe UI','Helvetica Neue',Helvetica,Arial,sans-serif"
+        font-size="12.5" letter-spacing="1.2" textLength="315" lengthAdjust="spacingAndGlyphs" fill="#9A85D0">Distributed systems for live game worlds</text>
+
+  <text x="1120" y="55" text-anchor="end" font-family="'Segoe UI','Helvetica Neue',Helvetica,Arial,sans-serif"
+        font-size="11" font-weight="700" letter-spacing="4" textLength="78" lengthAdjust="spacingAndGlyphs" fill="#8A76BE">CONTACT</text>
+  <text x="1120" y="82" text-anchor="end" font-family="'Segoe UI Semibold','Segoe UI',Inter,'Helvetica Neue',Helvetica,Arial,sans-serif"
+        font-size="17" font-weight="600" textLength="185" lengthAdjust="spacingAndGlyphs" fill="#E9E1FA">contact@walyverse.com</text>
+  <text x="1120" y="106" text-anchor="end" font-family="'Segoe UI','Helvetica Neue',Helvetica,Arial,sans-serif"
+        font-size="12.5" letter-spacing=".6" textLength="172" lengthAdjust="spacingAndGlyphs" fill="#9A85D0">walyverse.com, coming soon</text>
+
+  <text x="80" y="138" font-family="'Segoe UI','Helvetica Neue',Helvetica,Arial,sans-serif"
+        font-size="11.5" letter-spacing=".8" fill="#6E5D96">© 2026 Walyverse</text>
+</svg>

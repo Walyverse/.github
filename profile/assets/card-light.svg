@@ -1,0 +1,217 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="2106" viewBox="0 0 1200 2106" role="img" aria-label="Walyverse, distributed systems for live game worlds. 42 repositories, 360K+ lines of code, 7+ years, 50K+ players. Control plane, identity and state, transactional core, runtime. Ferry, configuration distribution for server fleets. Built with Java, TypeScript, Node.js, Python, Next.js, MySQL, PostgreSQL, Redis, Docker and Stripe. Contact contact@walyverse.com">
+<defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="220" y2="2106" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#FFFFFF"/><stop offset=".17" stop-color="#F5F1FE"/>
+      <stop offset=".55" stop-color="#FCFAFF"/><stop offset="1" stop-color="#FFFFFF"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse"
+      gradientTransform="translate(1010 40) scale(430)">
+      <stop offset="0" stop-color="#A855F7" stop-opacity=".20"/>
+      <stop offset="1" stop-color="#A855F7" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glow2" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse"
+      gradientTransform="translate(120 300) scale(360)">
+      <stop offset="0" stop-color="#6366F1" stop-opacity=".18"/>
+      <stop offset="1" stop-color="#6366F1" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="word" x1="240" y1="90" x2="900" y2="190" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#4C1D95"/><stop offset=".45" stop-color="#6D28D9"/>
+      <stop offset="1" stop-color="#4338CA"/>
+    </linearGradient>
+    <linearGradient id="rule" x1="240" y1="0" x2="960" y2="0" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#7C3AED" stop-opacity=".85"/>
+      <stop offset="1" stop-color="#6366F1" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="srule" x1="0" y1="0" x2="1200" y2="0" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#7C3AED" stop-opacity=".45"/>
+      <stop offset="1" stop-color="#7C3AED" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="fline" x1="0" y1="0" x2="1200" y2="0" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#7C3AED" stop-opacity="0"/>
+      <stop offset=".5" stop-color="#7C3AED" stop-opacity=".35"/>
+      <stop offset="1" stop-color="#7C3AED" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="ftile" x1="80" y1="0" x2="124" y2="44" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#6D5DFC"/><stop offset="1" stop-color="#9333EA"/>
+    </linearGradient>
+    <linearGradient id="fword" x1="142" y1="0" x2="262" y2="26" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#15171F"/><stop offset="1" stop-color="#6D5DFC"/>
+    </linearGradient>
+    <linearGradient id="fsep" x1="80" y1="0" x2="1120" y2="0" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#6D5DFC" stop-opacity=".42"/>
+      <stop offset="1" stop-color="#6D5DFC" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="fw" x1="132" y1="46" x2="290" y2="70" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#4C1D95"/><stop offset="1" stop-color="#6D28D9"/>
+    </linearGradient>
+    <linearGradient id="cubeTop" x1="70" y1="100" x2="190" y2="170" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#C084FC"/><stop offset="1" stop-color="#7C3AED"/>
+    </linearGradient>
+    <linearGradient id="cubeL" x1="70" y1="135" x2="130" y2="240" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#6D28D9"/><stop offset="1" stop-color="#3B0F70"/>
+    </linearGradient>
+    <linearGradient id="cubeR" x1="190" y1="135" x2="130" y2="240" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#8B5CF6"/><stop offset="1" stop-color="#4C1D95"/>
+    </linearGradient>
+    <filter id="soft" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="14" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M40 0H0V40" fill="none" stroke="#7C3AED" stroke-opacity=".055" stroke-width="1"/>
+    </pattern>
+  </defs>
+<rect width="1200" height="2106" rx="16" fill="url(#bg)"/>
+<rect width="1200" height="2106" rx="16" fill="url(#grid)"/>
+<rect width="1200" height="2106" rx="16" fill="url(#glow)"/>
+<rect width="1200" height="2106" rx="16" fill="url(#glow2)"/>
+<style>
+    .fl { animation: fl 7s ease-in-out infinite; }
+    .f2 { animation-duration: 9s;  animation-delay: -3s; }
+    .f3 { animation-duration: 11s; animation-delay: -6s; }
+    @keyframes fl {
+      0%, 100% { transform: translate(0, 0) }
+      50%      { transform: translate(-8px, -20px) }
+    }
+    .tilt { animation: tilt 13s ease-in-out infinite;
+            transform-box: fill-box; transform-origin: 50% 50%; }
+    .t2 { animation-duration: 16s; animation-delay: -5s; }
+    .t3 { animation-duration: 19s; animation-delay: -9s; }
+    @keyframes tilt {
+      0%, 100% { transform: rotate(-8deg) }
+      50%      { transform: rotate(8deg) }
+    }
+    .dw { stroke-dasharray: 100; animation: dw 6s ease-in-out infinite; }
+    @keyframes dw {
+      0%   { stroke-dashoffset: 100 }
+      32%  { stroke-dashoffset: 0 }
+      68%  { stroke-dashoffset: 0 }
+      100% { stroke-dashoffset: -100 }
+    }
+  </style>
+<g fill="none" stroke="#7C3AED" stroke-opacity=".42" stroke-width="1.6" stroke-linejoin="round" opacity=".8">
+<g class="fl f1"><g class="tilt t1"><path class="dw" pathLength="100" d="M1040 92 1076 113 1040 134 1004 113Z" style="animation-delay:0.00s"/><path class="dw" pathLength="100" d="M1004 113v42l36 21v-42" style="animation-delay:0.22s"/><path class="dw" pathLength="100" d="M1076 113v42l-36 21" style="animation-delay:0.44s"/></g></g>
+<g class="fl f2"><g class="tilt t2"><path class="dw" pathLength="100" d="M1118 186 1142 200 1118 214 1094 200Z" style="animation-delay:2.00s"/><path class="dw" pathLength="100" d="M1094 200v28l24 14v-28" style="animation-delay:2.22s"/><path class="dw" pathLength="100" d="M1142 200v28l-24 14" style="animation-delay:2.44s"/></g></g>
+<g class="fl f3"><g class="tilt t3"><path class="dw" pathLength="100" d="M952 214 976 228 952 242 928 228Z" style="animation-delay:4.00s"/><path class="dw" pathLength="100" d="M928 228v28l24 14v-28" style="animation-delay:4.22s"/><path class="dw" pathLength="100" d="M976 228v28l-24 14" style="animation-delay:4.44s"/></g></g>
+</g>
+<g filter="url(#soft)">
+    <path d="M130 100 190 135 130 170 70 135Z" fill="url(#cubeTop)"/>
+    <path d="M70 135 130 170v70l-60-35Z" fill="url(#cubeL)"/>
+    <path d="M190 135 130 170v70l60-35Z" fill="url(#cubeR)"/>
+  </g>
+<path d="M130 100 190 135 130 170 70 135Z M70 135 130 170v70l-60-35Z M190 135 130 170v70l60-35Z" fill="none" stroke="#FFFFFF" stroke-opacity=".45" stroke-width="1.5"/>
+<text x="243" y="163" font-family="'Segoe UI Semibold','Segoe UI',Inter,'Helvetica Neue',Helvetica,Arial,sans-serif" font-size="82" font-weight="700" fill="url(#word)" letter-spacing="9" textLength="632" lengthAdjust="spacingAndGlyphs">WALYVERSE</text>
+<rect x="245" y="186" width="700" height="2" rx="1" fill="url(#rule)"/>
+<text x="247" y="222" font-family="'Segoe UI','Helvetica Neue',Helvetica,Arial,sans-serif" font-size="16.5" font-weight="600" fill="#5B4B8A" letter-spacing="4.6" fill-opacity=".92" textLength="553" lengthAdjust="spacingAndGlyphs">DISTRIBUTED SYSTEMS FOR LIVE GAME WORLDS</text>
+<g font-family="'Segoe UI','Helvetica Neue',Helvetica,Arial,sans-serif" font-size="13.5" font-weight="600" letter-spacing="1.6" lengthAdjust="spacingAndGlyphs">
+<rect x="247" y="242" width="181" height="30" rx="15" fill="#A855F7" fill-opacity=".12" stroke="#A855F7" stroke-opacity=".40"/>
+<text x="337.5" y="262" text-anchor="middle" textLength="151" fill="#5B21B6">42 REPOSITORIES</text>
+<rect x="442" y="242" width="222" height="30" rx="15" fill="#6366F1" fill-opacity=".12" stroke="#6366F1" stroke-opacity=".40"/>
+<text x="553.0" y="262" text-anchor="middle" textLength="192" fill="#3730A3">360K+ LINES OF CODE</text>
+<rect x="678" y="242" width="222" height="30" rx="15" fill="#06B6D4" fill-opacity=".10" stroke="#06B6D4" stroke-opacity=".35"/>
+<text x="789.0" y="262" text-anchor="middle" textLength="192" fill="#155E75">7+ YEARS EXPERIENCE</text>
+</g>
+<text x="80" y="366" font-family="'Segoe UI','Helvetica Neue',Helvetica,Arial,sans-serif" font-size="23" font-weight="400" fill="#33285A">We build and operate the worlds people log into, on the platforms where the players already</text>
+<text x="80" y="404" font-family="'Segoe UI','Helvetica Neue',Helvetica,Arial,sans-serif" font-size="23" font-weight="400" fill="#33285A">are: Minecraft today, Hytale and Roblox tomorrow. Identity, state, the transactional core and</text>
+<text x="80" y="442" font-family="'Segoe UI','Helvetica Neue',Helvetica,Arial,sans-serif" font-size="23" font-weight="400" fill="#33285A">the control plane that schedules the fleet are all ours.</text>
+<text x="80" y="542" font-family="'Segoe UI','Helvetica Neue',Helvetica,Arial,sans-serif" font-size="13.5" font-weight="700" fill="#67558F" letter-spacing="4.6">BUILT WITH</text>
+<rect x="216" y="536.5" width="904" height="1.5" rx=".75" fill="url(#srule)"/>
+<g font-family="'Segoe UI Semibold','Segoe UI',Inter,'Helvetica Neue',Helvetica,Arial,sans-serif" font-size="19" font-weight="600" fill="#33285A">
+<circle cx="88" cy="594" r="6.5" fill="#E07B00"/><text x="110" y="600">Java</text>
+<circle cx="301" cy="594" r="6.5" fill="#3178C6"/><text x="323" y="600">TypeScript</text>
+<circle cx="514" cy="594" r="6.5" fill="#4CA13A"/><text x="536" y="600">Node.js</text>
+<circle cx="727" cy="594" r="6.5" fill="#D9A400"/><text x="749" y="600">Python</text>
+<circle cx="940" cy="594" r="6.5" fill="#111827"/><text x="962" y="600">Next.js</text>
+<circle cx="88" cy="642" r="6.5" fill="#00758F"/><text x="110" y="648">MySQL</text>
+<circle cx="301" cy="642" r="6.5" fill="#4169E1"/><text x="323" y="648">PostgreSQL</text>
+<circle cx="514" cy="642" r="6.5" fill="#DC382D"/><text x="536" y="648">Redis</text>
+<circle cx="727" cy="642" r="6.5" fill="#2496ED"/><text x="749" y="648">Docker</text>
+<circle cx="940" cy="642" r="6.5" fill="#635BFF"/><text x="962" y="648">Stripe</text>
+</g>
+<text x="80" y="742" font-family="'Segoe UI','Helvetica Neue',Helvetica,Arial,sans-serif" font-size="13.5" font-weight="700" fill="#67558F" letter-spacing="4.6">THE PLATFORM</text>
+<rect x="238" y="736.5" width="882" height="1.5" rx=".75" fill="url(#srule)"/>
+<text x="80.0" y="796" font-family="'Segoe UI Semibold','Segoe UI',Inter,'Helvetica Neue',Helvetica,Arial,sans-serif" font-size="17" font-weight="700" fill="#2A1F45" letter-spacing="2">CONTROL PLANE</text>
+<text x="80.0" y="823" font-family="'Segoe UI','Helvetica Neue',Helvetica,Arial,sans-serif" font-size="16" font-weight="400" fill="#463A6E">capacity follows demand, not a spreadsheet</text>
+<circle cx="84.0" cy="855" r="4" fill="#7C3AED" fill-opacity=".8"/>
+<text x="100.0" y="860" font-family="'Segoe UI Semibold','Segoe UI',Inter,'Helvetica Neue',Helvetica,Arial,sans-serif" font-size="17" font-weight="600" fill="#2A1F45">Orchestrator</text>
+<text x="232.0" y="860" font-family="'Segoe UI','Helvetica Neue',Helvetica,Arial,sans-serif" font-size="16" font-weight="400" fill="#463A6E">a reconciliation loop over the fleet</text>
+<circle cx="84.0" cy="889" r="4" fill="#7C3AED" fill-opacity=".8"/>
+<text x="100.0" y="894" font-family="'Segoe UI Semibold','Segoe UI',Inter,'Helvetica Neue',Helvetica,Arial,sans-serif" font-size="17" font-weight="600" fill="#2A1F45">Forward</text>
+<text x="232.0" y="894" font-family="'Segoe UI','Helvetica Neue',Helvetica,Arial,sans-serif" font-size="16" font-weight="400" fill="#463A6E">signed commands on every node</text>
+<circle cx="84.0" cy="923" r="4" fill="#7C3AED" fill-opacity=".8"/>
+<text x="100.0" y="928" font-family="'Segoe UI Semibold','Segoe UI',Inter,'Helvetica Neue',Helvetica,Arial,sans-serif" font-size="17" font-weight="600" fill="#2A1F45">Web</text>
+<text x="232.0" y="928" font-family="'Segoe UI','Helvetica Neue',Helvetica,Arial,sans-serif" font-size="16" font-weight="400" fill="#463A6E">multi tenant account portal</text>
+<rect x="568.0" y="770" width="1" height="176" fill="#7C3AED" fill-opacity=".16"/>
+<text x="600.0" y="796" font-family="'Segoe UI Semibold','Segoe UI',Inter,'Helvetica Neue',Helvetica,Arial,sans-serif" font-size="17" font-weight="700" fill="#2A1F45" letter-spacing="2">IDENTITY &amp; STATE</text>
+<text x="600.0" y="823" font-family="'Segoe UI','Helvetica Neue',Helvetica,Arial,sans-serif" font-size="16" font-weight="400" fill="#463A6E">one player record across the fleet</text>
+<circle cx="604.0" cy="855" r="4" fill="#7C3AED" fill-opacity=".8"/>
+<text x="620.0" y="860" font-family="'Segoe UI Semibold','Segoe UI',Inter,'Helvetica Neue',Helvetica,Arial,sans-serif" font-size="17" font-weight="600" fill="#2A1F45">Core</text>
+<text x="752.0" y="860" font-family="'Segoe UI','Helvetica Neue',Helvetica,Arial,sans-serif" font-size="16" font-weight="400" fill="#463A6E">sessions, entitlements, retention</text>
+<circle cx="604.0" cy="889" r="4" fill="#7C3AED" fill-opacity=".8"/>
+<text x="620.0" y="894" font-family="'Segoe UI Semibold','Segoe UI',Inter,'Helvetica Neue',Helvetica,Arial,sans-serif" font-size="17" font-weight="600" fill="#2A1F45">Auth</text>
+<text x="752.0" y="894" font-family="'Segoe UI','Helvetica Neue',Helvetica,Arial,sans-serif" font-size="16" font-weight="400" fill="#463A6E">verified at the edge and the node</text>
+<circle cx="604.0" cy="923" r="4" fill="#7C3AED" fill-opacity=".8"/>
+<text x="620.0" y="928" font-family="'Segoe UI Semibold','Segoe UI',Inter,'Helvetica Neue',Helvetica,Arial,sans-serif" font-size="17" font-weight="600" fill="#2A1F45">Sync</text>
+<text x="752.0" y="928" font-family="'Segoe UI','Helvetica Neue',Helvetica,Arial,sans-serif" font-size="16" font-weight="400" fill="#463A6E">snapshots, restores, fleet index</text>
+<text x="80.0" y="1028" font-family="'Segoe UI Semibold','Segoe UI',Inter,'Helvetica Neue',Helvetica,Arial,sans-serif" font-size="17" font-weight="700" fill="#2A1F45" letter-spacing="2">TRANSACTIONAL CORE</text>
+<text x="80.0" y="1055" font-family="'Segoe UI','Helvetica Neue',Helvetica,Arial,sans-serif" font-size="16" font-weight="400" fill="#463A6E">a trade commits or it never happened</text>
+<circle cx="84.0" cy="1087" r="4" fill="#7C3AED" fill-opacity=".8"/>
+<text x="100.0" y="1092" font-family="'Segoe UI Semibold','Segoe UI',Inter,'Helvetica Neue',Helvetica,Arial,sans-serif" font-size="17" font-weight="600" fill="#2A1F45">Economy</text>
+<text x="232.0" y="1092" font-family="'Segoe UI','Helvetica Neue',Helvetica,Arial,sans-serif" font-size="16" font-weight="400" fill="#463A6E">balances on an append only journal</text>
+<circle cx="84.0" cy="1121" r="4" fill="#7C3AED" fill-opacity=".8"/>
+<text x="100.0" y="1126" font-family="'Segoe UI Semibold','Segoe UI',Inter,'Helvetica Neue',Helvetica,Arial,sans-serif" font-size="17" font-weight="600" fill="#2A1F45">Market</text>
+<text x="232.0" y="1126" font-family="'Segoe UI','Helvetica Neue',Helvetica,Arial,sans-serif" font-size="16" font-weight="400" fill="#463A6E">shops, auctions, escrow, delivery</text>
+<circle cx="84.0" cy="1155" r="4" fill="#7C3AED" fill-opacity=".8"/>
+<text x="100.0" y="1160" font-family="'Segoe UI Semibold','Segoe UI',Inter,'Helvetica Neue',Helvetica,Arial,sans-serif" font-size="17" font-weight="600" fill="#2A1F45">Items</text>
+<text x="232.0" y="1160" font-family="'Segoe UI','Helvetica Neue',Helvetica,Arial,sans-serif" font-size="16" font-weight="400" fill="#463A6E">per instance identity, dupes visible</text>
+<circle cx="84.0" cy="1189" r="4" fill="#7C3AED" fill-opacity=".8"/>
+<text x="100.0" y="1194" font-family="'Segoe UI Semibold','Segoe UI',Inter,'Helvetica Neue',Helvetica,Arial,sans-serif" font-size="17" font-weight="600" fill="#2A1F45">Checkout</text>
+<text x="232.0" y="1194" font-family="'Segoe UI','Helvetica Neue',Helvetica,Arial,sans-serif" font-size="16" font-weight="400" fill="#463A6E">exactly one delivery per payment</text>
+<rect x="568.0" y="1002" width="1" height="176" fill="#7C3AED" fill-opacity=".16"/>
+<text x="600.0" y="1028" font-family="'Segoe UI Semibold','Segoe UI',Inter,'Helvetica Neue',Helvetica,Arial,sans-serif" font-size="17" font-weight="700" fill="#2A1F45" letter-spacing="2">RUNTIME</text>
+<text x="600.0" y="1055" font-family="'Segoe UI','Helvetica Neue',Helvetica,Arial,sans-serif" font-size="16" font-weight="400" fill="#463A6E">what the player actually touches</text>
+<circle cx="604.0" cy="1087" r="4" fill="#7C3AED" fill-opacity=".8"/>
+<text x="620.0" y="1092" font-family="'Segoe UI Semibold','Segoe UI',Inter,'Helvetica Neue',Helvetica,Arial,sans-serif" font-size="17" font-weight="600" fill="#2A1F45">Menu</text>
+<text x="752.0" y="1092" font-family="'Segoe UI','Helvetica Neue',Helvetica,Arial,sans-serif" font-size="16" font-weight="400" fill="#463A6E">interfaces compiled from config</text>
+<circle cx="604.0" cy="1121" r="4" fill="#7C3AED" fill-opacity=".8"/>
+<text x="620.0" y="1126" font-family="'Segoe UI Semibold','Segoe UI',Inter,'Helvetica Neue',Helvetica,Arial,sans-serif" font-size="17" font-weight="600" fill="#2A1F45">I18n</text>
+<text x="752.0" y="1126" font-family="'Segoe UI','Helvetica Neue',Helvetica,Arial,sans-serif" font-size="16" font-weight="400" fill="#463A6E">locale carried across the fleet</text>
+<circle cx="604.0" cy="1155" r="4" fill="#7C3AED" fill-opacity=".8"/>
+<text x="620.0" y="1160" font-family="'Segoe UI Semibold','Segoe UI',Inter,'Helvetica Neue',Helvetica,Arial,sans-serif" font-size="17" font-weight="600" fill="#2A1F45">Chat</text>
+<text x="752.0" y="1160" font-family="'Segoe UI','Helvetica Neue',Helvetica,Arial,sans-serif" font-size="16" font-weight="400" fill="#463A6E">routing, moderation, alerting</text>
+<circle cx="604.0" cy="1189" r="4" fill="#7C3AED" fill-opacity=".8"/>
+<text x="620.0" y="1194" font-family="'Segoe UI Semibold','Segoe UI',Inter,'Helvetica Neue',Helvetica,Arial,sans-serif" font-size="17" font-weight="600" fill="#2A1F45">Teleport</text>
+<text x="752.0" y="1194" font-family="'Segoe UI','Helvetica Neue',Helvetica,Arial,sans-serif" font-size="16" font-weight="400" fill="#463A6E">cross node transfer with handover</text>
+<g transform="translate(80,1321) scale(1.15)"><rect width="32" height="32" rx="9" fill="url(#ftile)"/><g fill="#fff"><rect x="9" y="9.4" width="14" height="3.4" rx="1.7" opacity=".45"/><rect x="9" y="14.3" width="14" height="3.4" rx="1.7" opacity=".72"/><rect x="9" y="19.2" width="14" height="3.4" rx="1.7"/></g></g>
+<text x="134" y="1336" font-family="'Segoe UI Semibold','Segoe UI',Inter,'Helvetica Neue',Helvetica,Arial,sans-serif" font-size="22" font-weight="700" fill="url(#fword)" letter-spacing="4.6" textLength="92" lengthAdjust="spacingAndGlyphs">FERRY</text>
+<text x="135" y="1359" font-family="'Segoe UI','Helvetica Neue',Helvetica,Arial,sans-serif" font-size="14.5" font-weight="400" fill="#4A5160" letter-spacing="1.1">Everything that keeps a fleet aligned</text>
+<rect x="80" y="1378" width="1040" height="1.5" rx=".75" fill="url(#fsep)"/>
+<text x="80" y="1408" font-family="'Segoe UI Semibold','Segoe UI',Inter,'Helvetica Neue',Helvetica,Arial,sans-serif" font-size="19" font-weight="600" fill="#2A1F45">Configuration distribution for server fleets.</text>
+<text x="80" y="1444" font-family="'Segoe UI','Helvetica Neue',Helvetica,Arial,sans-serif" font-size="17" font-weight="400" fill="#463A6E">A watcher picks a change up where it was made and propagates it to every node that should carry it, substituting what differs</text>
+<text x="80" y="1474" font-family="'Segoe UI','Helvetica Neue',Helvetica,Arial,sans-serif" font-size="17" font-weight="400" fill="#463A6E">per node on the way. Ten thousand lines of Python, now sold to operators whose fleets have nothing to do with our games.</text>
+<text x="80" y="1514" font-family="'Segoe UI Semibold','Segoe UI',Inter,'Helvetica Neue',Helvetica,Arial,sans-serif" font-size="16" font-weight="600" fill="#6D5DFC" letter-spacing=".6">ferry.walyverse.fr</text>
+<text x="80" y="1618" font-family="'Segoe UI','Helvetica Neue',Helvetica,Arial,sans-serif" font-size="13.5" font-weight="700" fill="#67558F" letter-spacing="4.6">HOW WE WORK</text>
+<rect x="227" y="1612.5" width="893" height="1.5" rx=".75" fill="url(#srule)"/>
+<rect x="80" y="1647" width="4" height="62" rx="2" fill="#7C3AED" fill-opacity=".55"/>
+<text x="106" y="1672" font-family="'Segoe UI Semibold','Segoe UI',Inter,'Helvetica Neue',Helvetica,Arial,sans-serif" font-size="22" font-weight="600" fill="#4C1D95">When correctness and convenience disagree, correctness wins,</text>
+<text x="106" y="1704" font-family="'Segoe UI Semibold','Segoe UI',Inter,'Helvetica Neue',Helvetica,Arial,sans-serif" font-size="22" font-weight="600" fill="#4C1D95">and the contract is written before the code.</text>
+<text x="80.0" y="1766" font-family="'Segoe UI','Helvetica Neue',Helvetica,Arial,sans-serif" font-size="13" font-weight="700" fill="#67558F" letter-spacing="2.6">ONE SOURCE OF TRUTH</text>
+<text x="80.0" y="1791" font-family="'Segoe UI','Helvetica Neue',Helvetica,Arial,sans-serif" font-size="16" font-weight="400" fill="#463A6E">durable state lives in the database</text>
+<text x="600.0" y="1766" font-family="'Segoe UI','Helvetica Neue',Helvetica,Arial,sans-serif" font-size="13" font-weight="700" fill="#67558F" letter-spacing="2.6">IDEMPOTENT BY DEFAULT</text>
+<text x="600.0" y="1791" font-family="'Segoe UI','Helvetica Neue',Helvetica,Arial,sans-serif" font-size="16" font-weight="400" fill="#463A6E">written to survive being replayed</text>
+<text x="80.0" y="1838" font-family="'Segoe UI','Helvetica Neue',Helvetica,Arial,sans-serif" font-size="13" font-weight="700" fill="#67558F" letter-spacing="2.6">AUDITABLE AFTER THE FACT</text>
+<text x="80.0" y="1863" font-family="'Segoe UI','Helvetica Neue',Helvetica,Arial,sans-serif" font-size="16" font-weight="400" fill="#463A6E">journals and reconciliation, by design</text>
+<text x="600.0" y="1838" font-family="'Segoe UI','Helvetica Neue',Helvetica,Arial,sans-serif" font-size="13" font-weight="700" fill="#67558F" letter-spacing="2.6">BOUNDED WORK</text>
+<text x="600.0" y="1863" font-family="'Segoe UI','Helvetica Neue',Helvetica,Arial,sans-serif" font-size="16" font-weight="400" fill="#463A6E">terminates in predictable time</text>
+<g transform="translate(0,1936)">
+<rect x="0" y="0" width="1200" height="1.5" fill="url(#fline)"/>
+<g transform="translate(80,42) scale(0.3) translate(-70,-100)"><path d="M130 100 190 135 130 170 70 135Z" fill="url(#cubeTop)"/><path d="M70 135 130 170v70l-60-35Z" fill="url(#cubeL)"/><path d="M190 135 130 170v70l60-35Z" fill="url(#cubeR)"/></g>
+<text x="132" y="63" font-family="'Segoe UI Semibold','Segoe UI',Inter,'Helvetica Neue',Helvetica,Arial,sans-serif" font-size="19" font-weight="700" fill="url(#fw)" letter-spacing="4.5" textLength="153" lengthAdjust="spacingAndGlyphs">WALYVERSE</text>
+<text x="133" y="86" font-family="'Segoe UI','Helvetica Neue',Helvetica,Arial,sans-serif" font-size="12.5" font-weight="400" fill="#6D5A9C" letter-spacing="1.2" textLength="315" lengthAdjust="spacingAndGlyphs">Distributed systems for live game worlds</text>
+<text x="1120" y="55" font-family="'Segoe UI','Helvetica Neue',Helvetica,Arial,sans-serif" font-size="11" font-weight="700" fill="#67558F" letter-spacing="4" text-anchor="end" textLength="78" lengthAdjust="spacingAndGlyphs">CONTACT</text>
+<text x="1120" y="82" font-family="'Segoe UI Semibold','Segoe UI',Inter,'Helvetica Neue',Helvetica,Arial,sans-serif" font-size="17" font-weight="600" fill="#2A1F45" text-anchor="end" textLength="185" lengthAdjust="spacingAndGlyphs">contact@walyverse.com</text>
+<text x="1120" y="106" font-family="'Segoe UI','Helvetica Neue',Helvetica,Arial,sans-serif" font-size="12.5" font-weight="400" fill="#6D5A9C" letter-spacing=".6" text-anchor="end" textLength="172" lengthAdjust="spacingAndGlyphs">walyverse.com, coming soon</text>
+<text x="80" y="138" font-family="'Segoe UI','Helvetica Neue',Helvetica,Arial,sans-serif" font-size="11.5" font-weight="400" fill="#8A7CB0" letter-spacing=".8">© 2026 Walyverse</text>
+</g>
+<rect x="1" y="1" width="1198" height="2104" rx="16" fill="none" stroke="#7C3AED" stroke-opacity=".20"/>
+</svg>

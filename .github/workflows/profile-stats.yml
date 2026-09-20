@@ -1,0 +1,110 @@
+name: profile stats
+
+on:
+  schedule:
+    - cron: '17 * * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: profile-stats
+  cancel-in-progress: false
+
+env:
+  # Languages left out of the line count. Blade and PHP come from the hosting
+  # panel we run rather than from code we wrote, so counting them would inflate
+  # the figure. Empty this to count everything the organisation holds.
+  EXCLUDED_LANGUAGES: 'PHP,Blade'
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Measure the organisation
+        id: stats
+        env:
+          ORG_TOKEN: ${{ secrets.ORG_STATS_TOKEN }}
+          ORG: ${{ github.repository_owner }}
+        run: |
+          set -euo pipefail
+          if [ -z "${ORG_TOKEN:-}" ]; then
+            echo "::error::ORG_STATS_TOKEN is not set, private repositories cannot be measured."
+            exit 1
+          fi
+
+          api() {
+            curl -sS --fail \
+              -H "Authorization: Bearer $ORG_TOKEN" \
+              -H "Accept: application/vnd.github+json" \
+              -H "X-GitHub-Api-Version: 2022-11-28" "$1"
+          }
+
+          names=''
+          page=1
+          while : ; do
+            chunk=$(api "https://api.github.com/orgs/$ORG/repos?per_page=100&type=all&page=$page" | jq -r '.[].name')
+            [ -z "$chunk" ] && break
+            names="$names$chunk"$'\n'
+            page=$((page + 1))
+          done
+
+          repos=$(printf '%s' "$names" | grep -c . || true)
+          echo "Measured $repos repositories."
+
+          : > /tmp/languages.json
+          printf '%s' "$names" | while read -r repo; do
+            [ -z "$repo" ] && continue
+            api "https://api.github.com/repos/$ORG/$repo/languages" >> /tmp/languages.json
+            echo >> /tmp/languages.json
+          done
+
+          lines=$(jq -s --arg excluded "$EXCLUDED_LANGUAGES" '
+            ($excluded | split(",")) as $skip
+            | {Java: 42, PHP: 30, TypeScript: 33, JavaScript: 33, Blade: 35, CSS: 25, HTML: 40} as $ratio
+            | [ .[] | to_entries[] | select(.key as $k | $skip | index($k) | not)
+                | .value / ($ratio[.key] // 35) ]
+            | add // 0 | floor
+          ' /tmp/languages.json)
+
+          rounded=$(( lines / 10000 * 10000 ))
+          if [ "$rounded" -ge 1000000 ]; then
+            tenths=$(( rounded / 100000 ))
+            loc="$(( tenths / 10 )).$(( tenths % 10 ))M+"
+          else
+            loc="$(( rounded / 1000 ))K+"
+          fi
+
+          echo "About $lines lines, published as $loc."
+          {
+            echo "repos=$repos"
+            echo "loc=$loc"
+          } >> "$GITHUB_OUTPUT"
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Redraw the card with the measured figures
+        env:
+          REPOS: ${{ steps.stats.outputs.repos }}
+          LOC: ${{ steps.stats.outputs.loc }}
+        run: python profile/scripts/render_card.py --repos "$REPOS" --loc "$LOC"
+
+      - name: Commit when something changed
+        env:
+          REPOS: ${{ steps.stats.outputs.repos }}
+          LOC: ${{ steps.stats.outputs.loc }}
+        run: |
+          set -euo pipefail
+          if git diff --quiet; then
+            echo "Unchanged at $REPOS repositories and $LOC."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit -am "chore(profile): $REPOS repositories, $LOC"
+          git push

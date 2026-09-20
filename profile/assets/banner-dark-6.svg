@@ -1,0 +1,81 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="320" viewBox="0 0 1200 320" role="img" aria-label="Walyverse, platform engineering for live game worlds">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="320" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#0A0512"/>
+      <stop offset=".5" stop-color="#180E2E"/>
+      <stop offset="1" stop-color="#0A0512"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(1010 40) scale(430)">
+      <stop offset="0" stop-color="#A855F7" stop-opacity=".45"/>
+      <stop offset="1" stop-color="#A855F7" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glow2" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(120 300) scale(360)">
+      <stop offset="0" stop-color="#6366F1" stop-opacity=".35"/>
+      <stop offset="1" stop-color="#6366F1" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="word" x1="240" y1="90" x2="900" y2="190" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#F3E8FF"/>
+      <stop offset=".45" stop-color="#C4B5FD"/>
+      <stop offset="1" stop-color="#818CF8"/>
+    </linearGradient>
+    <linearGradient id="rule" x1="240" y1="0" x2="960" y2="0" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#A855F7" stop-opacity=".9"/>
+      <stop offset="1" stop-color="#6366F1" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="cubeTop" x1="70" y1="100" x2="190" y2="170" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#C084FC"/><stop offset="1" stop-color="#7C3AED"/>
+    </linearGradient>
+    <linearGradient id="cubeL" x1="70" y1="135" x2="130" y2="240" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#6D28D9"/><stop offset="1" stop-color="#3B0F70"/>
+    </linearGradient>
+    <linearGradient id="cubeR" x1="190" y1="135" x2="130" y2="240" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#8B5CF6"/><stop offset="1" stop-color="#4C1D95"/>
+    </linearGradient>
+    <filter id="soft" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="14" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M40 0H0V40" fill="none" stroke="#A78BFA" stroke-opacity=".06" stroke-width="1"/>
+    </pattern>
+  </defs>
+
+  <rect width="1200" height="320" rx="16" fill="url(#bg)"/>
+  <rect width="1200" height="320" rx="16" fill="url(#grid)"/>
+  <rect width="1200" height="320" rx="16" fill="url(#glow)"/>
+  <rect width="1200" height="320" rx="16" fill="url(#glow2)"/>
+
+  <g opacity=".5" fill="none" stroke="#A78BFA" stroke-opacity=".28" stroke-width="1.4">
+    <path d="M1040 92 1076 113 1040 134 1004 113Z"/><path d="M1004 113v42l36 21v-42"/><path d="M1076 113v42l-36 21"/>
+    <path d="M1118 186 1142 200 1118 214 1094 200Z"/><path d="M1094 200v28l24 14v-28"/><path d="M1142 200v28l-24 14"/>
+    <path d="M952 214 976 228 952 242 928 228Z"/><path d="M928 228v28l24 14v-28"/><path d="M976 228v28l-24 14"/>
+  </g>
+
+  <g filter="url(#soft)">
+    <path d="M130 100 190 135 130 170 70 135Z" fill="url(#cubeTop)"/>
+    <path d="M70 135 130 170v70l-60-35Z" fill="url(#cubeL)"/>
+    <path d="M190 135 130 170v70l60-35Z" fill="url(#cubeR)"/>
+  </g>
+  <path d="M130 100 190 135 130 170 70 135Z M70 135 130 170v70l-60-35Z M190 135 130 170v70l60-35Z"
+        fill="none" stroke="#DDD6FE" stroke-opacity=".35" stroke-width="1.5"/>
+
+  <text x="243" y="163" font-family="'Segoe UI Semibold','Segoe UI',Inter,'Helvetica Neue',Helvetica,Arial,sans-serif"
+        font-size="82" font-weight="700" letter-spacing="9" textLength="632" lengthAdjust="spacingAndGlyphs" fill="url(#word)">WALYVERSE</text>
+
+  <rect x="245" y="186" width="700" height="2" rx="1" fill="url(#rule)"/>
+
+  <text x="247" y="222" font-family="'Segoe UI','Helvetica Neue',Helvetica,Arial,sans-serif"
+        font-size="16.5" font-weight="600" letter-spacing="4.6" textLength="553" lengthAdjust="spacingAndGlyphs" fill="#B9A9E8" fill-opacity=".92">DISTRIBUTED SYSTEMS FOR LIVE GAME WORLDS</text>
+
+  <g font-family="'Segoe UI','Helvetica Neue',Helvetica,Arial,sans-serif" font-size="13.5" font-weight="600" letter-spacing="1.6" lengthAdjust="spacingAndGlyphs">
+    <rect x="247" y="242" width="181" height="30" rx="15" fill="#A855F7" fill-opacity=".14" stroke="#A855F7" stroke-opacity=".35"/>
+    <text x="337" y="262" text-anchor="middle" textLength="151" fill="#D8C9FF">42 REPOSITORIES</text>
+    <rect x="442" y="242" width="222" height="30" rx="15" fill="#6366F1" fill-opacity=".14" stroke="#818CF8" stroke-opacity=".35"/>
+    <text x="553" y="262" text-anchor="middle" textLength="192" fill="#C7CBFF">360K+ LINES OF CODE</text>
+    <rect x="678" y="242" width="222" height="30" rx="15" fill="#22D3EE" fill-opacity=".10" stroke="#22D3EE" stroke-opacity=".28"/>
+    <text x="789" y="262" text-anchor="middle" textLength="192" fill="#A5E9F5">7+ YEARS EXPERIENCE</text>
+  </g>
+
+
+  <rect x="1" y="1" width="1198" height="318" rx="16" fill="none" stroke="#A78BFA" stroke-opacity=".18"/>
+</svg>
