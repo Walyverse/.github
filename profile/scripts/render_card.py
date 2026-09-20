@@ -365,7 +365,7 @@ def build(c, PILLS):
 
     p.append(f'<g transform="translate(0,{FOOT_TOP})">')
     p.append(f'<rect x="0" y="0" width="{W}" height="1.5" fill="url(#fline)"/>')
-    p.append('<g transform="translate(80,42) scale(0.3) translate(-70,-100)">'
+    p.append('<g transform="translate(80,47) scale(0.3) translate(-70,-100)">'
              '<path d="M130 100 190 135 130 170 70 135Z" fill="url(#cubeTop)"/>'
              '<path d="M70 135 130 170v70l-60-35Z" fill="url(#cubeL)"/>'
              '<path d="M190 135 130 170v70l60-35Z" fill="url(#cubeR)"/></g>')
