@@ -165,7 +165,7 @@ def build(c, PILLS):
     p = []
     p.append(f'<svg xmlns="http://www.w3.org/2000/svg" width="{W}" height="{H}" '
              f'viewBox="0 0 {W} {H}" role="img" aria-label="Walyverse, distributed systems for '
-             f'live game worlds. 42 repositories, 360K+ lines of code, 7+ years, 50K+ players. '
+             f'live game worlds. 50+ repositories, 360K+ lines of code, 7+ years, 50K+ players. '
              f'Control plane, identity and state, transactional core, runtime. Ferry, '
              f'configuration distribution for server fleets. Built with Java, TypeScript, '
              f'Node.js, Python, Next.js, MySQL, PostgreSQL, Redis, Docker and Stripe. '
