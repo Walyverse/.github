@@ -389,7 +389,7 @@ def build(c, PILLS):
 
 if __name__ == "__main__":
     ap = argparse.ArgumentParser(description=__doc__)
-    ap.add_argument("--repos", default="42", help="repository count shown in the first pill")
+    ap.add_argument("--repos", default="50+", help="repository count shown in the first pill")
     ap.add_argument("--loc", default="360K+", help="line count shown in the second pill")
     args = ap.parse_args()
 
