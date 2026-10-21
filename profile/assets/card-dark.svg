@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="2106" viewBox="0 0 1200 2106" role="img" aria-label="Walyverse, distributed systems for live game worlds. 42 repositories, 360K+ lines of code, 7+ years, 50K+ players. Control plane, identity and state, transactional core, runtime. Ferry, configuration distribution for server fleets. Built with Java, TypeScript, Node.js, Python, Next.js, MySQL, PostgreSQL, Redis, Docker and Stripe. Contact contact@walyverse.com">
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="2106" viewBox="0 0 1200 2106" role="img" aria-label="Walyverse, distributed systems for live game worlds. 50+ repositories, 360K+ lines of code, 7+ years, 50K+ players. Control plane, identity and state, transactional core, runtime. Ferry, configuration distribution for server fleets. Built with Java, TypeScript, Node.js, Python, Next.js, MySQL, PostgreSQL, Redis, Docker and Stripe. Contact contact@walyverse.com">
 <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="220" y2="2106" gradientUnits="userSpaceOnUse">
       <stop offset="0" stop-color="#0A0512"/><stop offset=".17" stop-color="#180E2E"/>
@@ -105,9 +105,9 @@
 <text x="247" y="222" font-family="'Segoe UI','Helvetica Neue',Helvetica,Arial,sans-serif" font-size="16.5" font-weight="600" fill="#B9A9E8" letter-spacing="4.6" fill-opacity=".92" textLength="553" lengthAdjust="spacingAndGlyphs">DISTRIBUTED SYSTEMS FOR LIVE GAME WORLDS</text>
 <g font-family="'Segoe UI','Helvetica Neue',Helvetica,Arial,sans-serif" font-size="13.5" font-weight="600" letter-spacing="1.6" lengthAdjust="spacingAndGlyphs">
 <rect x="247" y="242" width="181" height="30" rx="15" fill="#A855F7" fill-opacity=".14" stroke="#A855F7" stroke-opacity=".35"/>
-<text x="337.5" y="262" text-anchor="middle" textLength="151" fill="#D8C9FF">42 REPOSITORIES</text>
+<text x="337.5" y="262" text-anchor="middle" textLength="151" fill="#D8C9FF">60 REPOSITORIES</text>
 <rect x="442" y="242" width="222" height="30" rx="15" fill="#818CF8" fill-opacity=".14" stroke="#818CF8" stroke-opacity=".35"/>
-<text x="553.0" y="262" text-anchor="middle" textLength="192" fill="#C7CBFF">360K+ LINES OF CODE</text>
+<text x="553.0" y="262" text-anchor="middle" textLength="192" fill="#C7CBFF">1.2M+ LINES OF CODE</text>
 <rect x="678" y="242" width="222" height="30" rx="15" fill="#22D3EE" fill-opacity=".10" stroke="#22D3EE" stroke-opacity=".28"/>
 <text x="789.0" y="262" text-anchor="middle" textLength="192" fill="#A5E9F5">7+ YEARS EXPERIENCE</text>
 </g>
